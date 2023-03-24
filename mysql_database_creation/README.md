@@ -11,7 +11,7 @@ and large quantities of data.
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ACCESSING MYSQL ON THE HPCC:
+ACCESSING MYSQL ON THE HPCC (from the command line):
 
 1) Access MySQL via. commandline or HPCC, then type in the following:
 
@@ -28,6 +28,14 @@ The last option (-h: host) is name of the database that you want to connect.
 For more information, visit this link: https://dev.mysql.com/doc/refman/8.0/en/connecting.html 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-ACCESSING THE EXAMPLE SCRIPTS
+ACCESSING MySQL in the example script 
 
 To use the example scripts provided in this directory, insert the necessary information where the hashtags are within the script
+
+To run the python script from the command line, do python3 "insert script name"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+References, Links, etc
+
+1) The best buy data came from my CSE 482 class (Big Data Analysis)
+
+2) The code / script provided was written by me

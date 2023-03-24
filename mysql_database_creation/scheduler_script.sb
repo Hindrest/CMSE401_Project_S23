@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -N 3
+#SBATCH -c 2
+#SBATCH --mem 10gb
+#SBATCH --time 02:00:00
+
+module load example_database_creation.py
+
+scontrol show job $SLURM_JOB_ID
